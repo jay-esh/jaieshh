@@ -21,24 +21,28 @@ export default function Home() {
         </h1>
         
         <h2 className={styles.subtitle}>
-          Lifelong student
+          A Lifelong student
         </h2>
 
         <div className={styles.description}>
-          <h3>Documentation</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. In arcu cursus euismod quis viverra. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Elit duis tristique sollicitudin nibh. Curabitur vitae nunc sed velit dignissim sodales ut. Nunc eget lorem dolor sed. Scelerisque viverra mauris in aliquam sem fringilla ut. Molestie at elementum eu facilisis sed odio morbi quis commodo. Erat nam at lectus urna duis convallis convallis tellus id. Adipiscing bibendum est ultricies integer quis.
-
-Id nibh tortor id aliquet lectus. Urna nunc id cursus metus. Risus pretium quam vulputate dignissim suspendisse. Semper feugiat nibh sed pulvinar. Proin sagittis nisl rhoncus mattis rhoncus urna. Tincidunt praesent semper feugiat nibh sed pulvinar. Cursus turpis massa tincidunt dui. Nam at lectus urna duis convallis convallis tellus. Sed turpis tincidunt id aliquet risus feugiat. Sollicitudin ac orci phasellus egestas tellus rutrum. Quisque non tellus orci ac auctor augue mauris augue. Vitae tempus quam pellentesque nec nam aliquam sem et. Cursus sit amet dictum sit amet justo donec. Amet mattis vulputate enim nulla.
-
-Feugiat scelerisque varius morbi enim nunc faucibus a. Vitae proin sagittis nisl rhoncus mattis rhoncus urna. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Pellentesque habitant morbi tristique senectus et netus et. Est ullamcorper eget nulla facilisi etiam dignissim diam quis. Urna molestie at elementum eu facilisis sed. Lacus vestibulum sed arcu non odio euismod. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. Sit amet mattis vulputate enim. Sit amet purus gravida quis blandit turpis cursus in. Sed odio morbi quis commodo odio aenean sed adipiscing diam. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. Ullamcorper a lacus vestibulum sed.
-
-Ac turpis egestas integer eget aliquet nibh. Viverra tellus in hac habitasse. Elit at imperdiet dui accumsan sit amet nulla. Curabitur vitae nunc sed velit. Ultrices neque ornare aenean euismod elementum. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Tellus in metus vulputate eu scelerisque felis imperdiet. Est ante in nibh mauris cursus mattis molestie. Auctor urna nunc id cursus metus aliquam eleifend. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Mauris vitae ultricies leo integer malesuada nunc. Non curabitur gravida arcu ac. Rutrum quisque non tellus orci ac auctor. Viverra justo nec ultrices dui sapien. Elit duis tristique sollicitudin nibh sit amet.
-
-In dictum non consectetur a erat nam at lectus urna. Massa placerat duis ultricies lacus sed turpis tincidunt id. Eget magna fermentum iaculis eu non diam phasellus. Cursus mattis molestie a iaculis at erat pellentesque. Urna cursus eget nunc scelerisque. Sed tempus urna et pharetra pharetra massa massa ultricies. Mollis aliquam ut porttitor leo. Malesuada nunc vel risus commodo. Cras sed felis eget velit. Egestas congue quisque egestas diam in. Lectus quam id leo in vitae. Eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor. Sapien pellentesque habitant morbi tristique senectus et netus.
-          </p>
+          <h3>Welcome!</h3>
           <div className='imagecontainer'>
             <img src="/images/anime.png" alt="Description of the image"/>
           </div>
+          <p>This is jaieshh, I hope you are doing good. Welcome to my rought note taking page.<br/>
+          Here I am just going to jot down things that I am curious about and sometimes my own reflection on things.<br/>
+          I fear that most us are just losing our curious selves and are just living for the sake of living.<br/><br/>
+          I have made this to make sure I dont lose my curious self and jot something down everyday.</p>
+        </div>
+        <div className={styles.description}>
+          <h3>13th Tuesday feb 24</h3>
+          {/* <div className='imagecontainer'>
+            <img src="/images/anime.png" alt="Description of the image"/>
+          </div> */}
+          <p>Recently, reading about a lot of AI stuff on twitter X. Getting FOMO so have a few projects in mind to work on.</p>
+          <p>I think there have to be more goofy websites on the internet like this one, my eyes are tired of looking at beautiful stuff.</p>
+          <p>Taking a course on ML in uni as well, to understand the basics, need to catch up on that.</p>
+          <p></p>
         </div>
       </main>
 
