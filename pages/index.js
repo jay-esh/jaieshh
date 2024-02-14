@@ -36,7 +36,9 @@ Ac turpis egestas integer eget aliquet nibh. Viverra tellus in hac habitasse. El
 
 In dictum non consectetur a erat nam at lectus urna. Massa placerat duis ultricies lacus sed turpis tincidunt id. Eget magna fermentum iaculis eu non diam phasellus. Cursus mattis molestie a iaculis at erat pellentesque. Urna cursus eget nunc scelerisque. Sed tempus urna et pharetra pharetra massa massa ultricies. Mollis aliquam ut porttitor leo. Malesuada nunc vel risus commodo. Cras sed felis eget velit. Egestas congue quisque egestas diam in. Lectus quam id leo in vitae. Eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor. Sapien pellentesque habitant morbi tristique senectus et netus.
           </p>
-          <img src="/images/anime.png" alt="Description of the image"/>
+          <div className='imagecontainer'>
+            <img src="/images/anime.png" alt="Description of the image"/>
+          </div>
         </div>
       </main>
 
@@ -54,13 +56,13 @@ In dictum non consectetur a erat nam at lectus urna. Massa placerat duis ultrici
       <style jsx global>{`
         body {
           background-color: #17252A;
-          font-family: Source Code Pro
+          font-family: Source Code Pro;
         }
         main {
-          width: 70%
+          max-width: 42rem;
         }
         h3 {
-          color: violet
+          color: violet;
         }
         img {
           max-width: 100%;
