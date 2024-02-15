@@ -58,13 +58,24 @@ export default function Home() {
           <p>Also I completely forgot about Andrej K. just left OpenAI this is huge for students like me 
             cause this guy knows a lot and his videos are just the best to learn about ML and AI. He tweeted that he 
             already started working on his videos. Apart from his videos I see a lot of people are excited for 
-            his contributions on open source models, I mean he is very knowledgable but I think there a lot of anonymous
+            his contributions on open source models, I mean he is very knowledgable but I think there are a lot of anonymous
             brilliant people out there who can make similar or even better contributions (just saying might not make a huge difference).
           </p>
           <p>TODO <br/>
             § Spin up a basic gpt using Llama, Huggingface model and groq. <br/>
             § Look into AI hardware on the internet and see what people are doing on this. <br/>
           </p>
+        </div>
+        <div className={styles.description}>
+          <h3>Research papers to go through</h3>
+          <a href='https://arxiv.org/pdf/1706.03762.pdf'>§ Attention is all you need</a><br/>
+          <a href='https://arxiv.org/pdf/2001.04451.pdf'>§ Reformer: The Efficient Transformer</a><br/>
+          <a href='https://arxiv.org/pdf/2006.04768.pdf'>§ Linformer: Self-Attention with Linear Complexity</a><br/>
+          <a href='https://www.researchgate.net/publication/221344862_Curriculum_learning'>§ "Curriculum Learning" by Bengio et al</a><br/>
+          <a href='https://arxiv.org/pdf/1910.10683.pdf'>§ "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"</a><br/>
+          {/* <div className='imagecontainer'>
+            <img src="/images/14feb24.png" alt="shocked"/>
+          </div> */}
         </div>
       </main>
 
@@ -94,6 +105,9 @@ export default function Home() {
         img {
           max-width: 100%;
           height: auto;
+        }
+        a {
+          color: lightblue;
         }
       `}</style>
     </div>
