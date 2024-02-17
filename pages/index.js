@@ -16,15 +16,14 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
+      <h1 className={styles.title}>
           Jaieshh
         </h1>
         
         <h2 className={styles.subtitle}>
           A Lifelong student
         </h2>
-
-        <div className={styles.description}>
+      <div className={styles.description}>
           <h3>Welcome!</h3>
           <div className='imagecontainer'>
             <img src="/images/anime.png" alt="muscle baby"/>
@@ -34,15 +33,30 @@ export default function Home() {
           I fear that most us are just losing our curious selves and are just living for the sake of living.<br/><br/>
           I have made this to make sure I dont lose my curious self and jot something down everyday.</p>
         </div>
+
         <div className={styles.description}>
-          <h3>13th Tuesday feb 24</h3>
+          <h3>16th Thurs feb 24</h3>
+          <p>
+            Facinated by semiconductor chips looking into the manufacturing process for semiconductor chips...
+            Also started working on these LLMs for the first time.
+          </p>
           {/* <div className='imagecontainer'>
-            <img src="/images/anime.png" alt="Description of the image"/>
+            <img src="/images/14feb24.png" alt="shocked"/>
           </div> */}
-          <p>Recently, reading about a lot of AI stuff on twitter X. Getting FOMO so have a few projects in mind to work on.</p>
-          <p>I think there have to be more goofy websites on the internet like this one, my eyes are tired of looking at beautiful stuff.</p>
-          <p>Taking a course on ML in uni as well, to understand the basics, need to catch up on that.</p>
         </div>
+      <div className={styles.description}>
+          <h3>15th Wednesday feb 24</h3>
+          <p>
+            Didnt do much today, but I started to look into the semiconductor market in India.
+            Also started watching these videos from Andrej Karapathy on LLMs and how do they actually work under the hood.
+            Major thing i noted was about vedanta company in India setting up its semiconductor branch in Gujarat and aiming to manufacture chips from 2025.
+            Lead by David Reeds.
+          </p>
+          {/* <div className='imagecontainer'>
+            <img src="/images/14feb24.png" alt="shocked"/>
+          </div> */}
+        </div>
+
         <div className={styles.description}>
           <h3>14th Tuesday feb 24</h3>
           <p>
@@ -76,6 +90,15 @@ export default function Home() {
           {/* <div className='imagecontainer'>
             <img src="/images/14feb24.png" alt="shocked"/>
           </div> */}
+        </div>
+        <div className={styles.description}>
+          <h3>13th Tuesday feb 24</h3>
+          {/* <div className='imagecontainer'>
+            <img src="/images/anime.png" alt="Description of the image"/>
+          </div> */}
+          <p>Recently, reading about a lot of AI stuff on twitter X. Getting FOMO so have a few projects in mind to work on.</p>
+          <p>I think there have to be more goofy websites on the internet like this one, my eyes are tired of looking at beautiful stuff.</p>
+          <p>Taking a course on ML in uni as well, to understand the basics, need to catch up on that.</p>
         </div>
       </main>
 
