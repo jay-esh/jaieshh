@@ -35,6 +35,25 @@ export default function Home() {
         </div>
 
         <div className={styles.description}>
+          <h3>26th Thurs feb 24</h3>
+          <p>
+            Havent really documented anything for the past 10 days but the building and studying is going strong. I realized a few things over these days: <br/>
+              - Need to learn about hardware used to make computers and how they work. <br/>
+              - When I started this initiative of self learning and building regularly, I did not have a definite plan and was just doing things as they came on my mind.
+                This wont work, just found a link to a repo on github from twitter with a complete plan to learn software with integrated hardware. <br/>
+                https://github.com/geohot/fromthetransistor <br/>
+                https://github.com/realityexpander/How_to_program_from_ground_up/blob/main/03-Hardware.md#the-wire--the-battery <br/>
+              - Midjourney is better than Dalle
+              - Found a book on AI statistics reading that regularly to understand ML and AI form first principles. <br/>
+              - Dune is the best sci-fi movie series out there.
+
+          </p>
+          <div className='imagecontainer'>
+            <img src="/images/shaihulud.png" alt="shocked"/>
+          </div>
+        </div>
+
+        <div className={styles.description}>
           <h3>16th Thurs feb 24</h3>
           <p>
             Facinated by semiconductor chips looking into the manufacturing process for semiconductor chips...
