@@ -35,6 +35,49 @@ export default function Home() {
         </div>
 
         <div className={styles.description}>
+          <h3>12th Tue Mar 24</h3>
+          <p>
+            Not having time to write everyday but will try to write as much as poosible.
+          </p>
+          <p>
+            Since I have been working on fine tuning LLMs (LLama-7b-chat mostly), I have encountered new concepts in this domain
+            that I think are really helpful to understand. Dont know where to jot this down thought this will be the right place 
+            to have such a thing for later reference.
+          </p>
+          <p>
+            Lets start off with 
+            </p>
+            <h3>PEFT (Parameter Efficient Fine-Tuning)</h3>
+            <p>
+            Fine-tuning large pretrained models is often prohibitively costly due to their scale. Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of large pretrained models to various downstream applications by only fine-tuning a small number of (extra) model parameters instead of all the model's parameters. This significantly decreases the computational and storage costs. Recent state-of-the-art PEFT techniques achieve performance comparable to fully fine-tuned models.
+            </p>
+            <a href='https://arxiv.org/pdf/2106.09685.pdf'>LoRA: LOW-RANK ADAPTATION a type of PEFT</a><br/>
+            <p>
+            We know that the weights matrices of a pretrained neural network are full rank, meaning each weight is unique and can't be made by combining other weights. But in this paper authors showed that when pretrained language models are adjusted to a new task the weights have a lower “intrinsic dimension”. Meaning, that the weights can be represented in a smaller matrix, or that it has a lower rank. This in turn means that during backpropagation, the weight update matrix has a lower rank, as most of the necessary information has already been captured by the pre-training process and only task-specific adjustments are made during fine-tuning.
+            </p>
+            <p>
+            The above explanations are from <a href='https://www.mercity.ai/blog-post/fine-tuning-llms-using-peft-and-lora'>here</a>
+            There are more techniques but now focusing on understanding LoRA first.
+            </p>
+            <p>
+              Also I have started off with a 100DayHardWarechallenge,
+              Where I am going to learn the first principles of a computer architecture and hardware.
+              I updating my progress on twitter and not here.
+              
+            </p>
+            <blockquote class="twitter-tweet" data-theme="dark">
+              <p lang="en" dir="ltr">
+                Ok gys enough of slacking from my end and here we go. 100daysofHARDWARE challenge is on from tonight. I am following this repo
+                <a href="https://t.co/ZEosPWd9vq">https://t.co/ZEosPWd9vq</a><br/>
+                It’s 12 week thing but I know I will take more time. Was already doing this but I slacked for a week so taking accountability now 
+                <a href="https://t.co/BKdbtuPAnu">https://t.co/BKdbtuPAnu</a>
+                </p>&mdash; Jayesh Anil (@JayeshAnil1) 
+                <a href="https://twitter.com/JayeshAnil1/status/1767018340902392283?ref_src=twsrc%5Etfw">March 11, 2024</a>
+                </blockquote> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        <div className={styles.description}>
           <h3>26th Thurs feb 24</h3>
           <p>
             Havent really documented anything for the past 10 days but the building and studying is going strong. I realized a few things over these days: <br/>
@@ -42,7 +85,6 @@ export default function Home() {
               - When I started this initiative of self learning and building regularly, I did not have a definite plan and was just doing things as they came on my mind.
                 This wont work, just found a link to a repo on github from twitter with a complete plan to learn software with integrated hardware. <br/>
                 https://github.com/geohot/fromthetransistor <br/>
-                https://github.com/realityexpander/How_to_program_from_ground_up/blob/main/03-Hardware.md#the-wire--the-battery <br/>
               - Midjourney is better than Dalle
               - Found a book on AI statistics reading that regularly to understand ML and AI form first principles. <br/>
               - Dune is the best sci-fi movie series out there.
@@ -135,7 +177,7 @@ export default function Home() {
 
       <style jsx global>{`
         body {
-          background-color: #17252A;
+          background-color: black;
           font-family: Source Code Pro;
         }
         main {
